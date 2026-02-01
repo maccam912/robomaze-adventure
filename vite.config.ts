@@ -24,18 +24,13 @@ export default defineConfig(({ mode }) => {
           background_color: '#f0f9ff',
           display: 'standalone',
           orientation: 'portrait',
-          start_url: '/',
+          start_url: '/robomaze-adventure/',
+          scope: '/robomaze-adventure/',
           icons: [
             {
-              src: 'icons/icon-192.png',
-              sizes: '192x192',
-              type: 'image/png',
-              purpose: 'any maskable'
-            },
-            {
-              src: 'icons/icon-512.png',
-              sizes: '512x512',
-              type: 'image/png',
+              src: 'icons/icon.svg',
+              sizes: '192x192 512x512',
+              type: 'image/svg+xml',
               purpose: 'any maskable'
             }
           ]

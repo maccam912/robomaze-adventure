@@ -1,0 +1,5 @@
+{
+  "name": "RoboMaze Adventure",
+  "description": "A lightning-fast, child-friendly maze game where you help a robot navigate puzzles. Trace the path and watch the robot follow your lead! Pure algorithmic generation for instant fun.",
+  "requestFramePermissions": []
+}
